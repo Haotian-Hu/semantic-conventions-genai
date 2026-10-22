@@ -4,11 +4,37 @@
     "gen_ai.evaluation.result": [
       "gen_ai.evaluation.explanation",
       "gen_ai.evaluation.name",
+      "gen_ai.evaluation.score.direction",
       "gen_ai.evaluation.score.label",
       "gen_ai.evaluation.score.value"
     ]
   },
   "metrics": {},
-  "findings": [],
-  "entities": {}
+  "entities": {},
+  "findings": [
+    {
+      "id": "instrumentation_scope_schema_url_missing",
+      "message": "Instrumentation scope 'gen_ai.evaluation.reference' does not have schema_url.",
+      "signal_type": "instrumentation_scope",
+      "signal_name": "gen_ai.evaluation.reference",
+      "context": {
+        "actual": "",
+        "expected": {
+          "present": true
+        }
+      }
+    },
+    {
+      "id": "instrumentation_scope_schema_url_missing",
+      "message": "Instrumentation scope 'gen_ai.reference' does not have schema_url.",
+      "signal_type": "instrumentation_scope",
+      "signal_name": "gen_ai.reference",
+      "context": {
+        "actual": "",
+        "expected": {
+          "present": true
+        }
+      }
+    }
+  ]
 }
