@@ -10,31 +10,6 @@
     ]
   },
   "metrics": {},
-  "entities": {},
-  "findings": [
-    {
-      "id": "instrumentation_scope_schema_url_missing",
-      "message": "Instrumentation scope 'gen_ai.evaluation.reference' does not have schema_url.",
-      "signal_type": "instrumentation_scope",
-      "signal_name": "gen_ai.evaluation.reference",
-      "context": {
-        "actual": "",
-        "expected": {
-          "present": true
-        }
-      }
-    },
-    {
-      "id": "instrumentation_scope_schema_url_missing",
-      "message": "Instrumentation scope 'gen_ai.reference' does not have schema_url.",
-      "signal_type": "instrumentation_scope",
-      "signal_name": "gen_ai.reference",
-      "context": {
-        "actual": "",
-        "expected": {
-          "present": true
-        }
-      }
-    }
-  ]
+  "findings": [],
+  "entities": {}
 }
